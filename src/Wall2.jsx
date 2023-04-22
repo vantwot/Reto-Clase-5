@@ -9,7 +9,7 @@ export default function Wall2() {
   }
 
   return (
-    <mesh position={[3, 1, 10]} rotation-y={-Math.PI * 0.8} onDoubleClick={handleDoubleClick}>
+    <mesh position={[-3, 1, 10]} rotation-y={-Math.PI * 0.8} onDoubleClick={handleDoubleClick}>
       <planeGeometry args={[6, 6]} />
       <meshBasicMaterial map={new TextureLoader().load(texture)} />
     </mesh>
