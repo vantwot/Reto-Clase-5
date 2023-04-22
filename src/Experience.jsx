@@ -13,9 +13,11 @@ export default function Experience() {
           <Perf position="top-left" />
 
           <OrbitControls makeDefault />
-    
-          <ambientLight intensity={2} />
-        
+
+          <directionalLight position={[2, 5, 3]} intensity={1.5} />
+          <directionalLight position={[-2, -5, -3]} intensity={1.5} />
+          <ambientLight intensity={0.5} />
+            
           <Wall1/>
           <Wall2/>
         </>
